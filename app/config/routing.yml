@@ -1,3 +1,15 @@
+store_category:
+    resource: "@StoreBundle/Controller/CategoryController.php"
+    type:     annotation
+
+store_category:
+    resource: "@StoreBundle/Controller/CategoryController.php"
+    type:     annotation
+
+store:
+    resource: "@StoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
